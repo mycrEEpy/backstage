@@ -1,5 +1,13 @@
 # @backstage/cli
 
+## 0.13.2
+
+### Patch Changes
+
+- bbbaa8ed61: The `plugin:diff` command no longer validates the existence of any of the files within `dev/` or `src/`.
+- eaf67f0578: Introduced initial support for an experimental `backstage.role` field in package.json, as well as experimental and hidden `migrate` and `script` sub-commands. We do not recommend usage of any of these additions yet.
+- 63181dee79: Tweaked frontend bundling configuration to avoid leaking declarations into global scope.
+
 ## 0.13.1
 
 ### Patch Changes
